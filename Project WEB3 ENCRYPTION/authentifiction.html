@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="authentifiction.css">
+</head>
+<body>
+    <div>
+        <h1 class="titre">Authentifiction</h1>
+
+        <div class="form-div">   
+            <form asp-action="Merci" asp-controller="Home">
+                <input hidden class="form-control" type="number" placeholder="0" asp-for="Id" />
+
+                <label class="mt-2">Email</label>
+                <br>
+                <input class="form-control" type="email" placeholder="Email" asp-for="" />
+                <br>
+                <br>
+
+                <label class="mt-2">Mot de Passe</label>
+                <br>
+                <input class="form-control" type="email" placeholder="Mot de Passe" asp-for="" />
+                <br>
+                <br>
+                
+                <button class="btn btn-primary mt-3 boutons" type="submit">Sign In</button>
+            </form>
+            <br>
+            <a href="pageAccueil.html" class="btn btn-primary boutons bouton-Home">Home</a>      
+        </div>
+        <div class="footer1">
+            <h2>Faits amusants sur les vaches !</h2>
+            <p>Chaque vache a une voix unique, et leurs meuglements permettent aux autres de les reconnaître.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,202 @@
+body {
+    background-image: url( https://tse2.mm.bing.net/th?id=OIP.aYJviSN65CFTHkHbkYYyOQHaHa&pid=Api&P=0&h=180);
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom:0;
+    text-align: center;
+}
+
+p{
+    font-size: 15px;
+}
+
+.titre{
+    background-color: #E31C79;
+    color: white;
+    padding: 10px; 
+    font-size: 24px; 
+    font-weight:bolder;
+    border:10px solid white;
+    border-bottom: 5px solid white;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.image-Vache-Div{
+    background: linear-gradient(to bottom, #E31C79, #4169e1);
+    padding:15px;
+    border:10px solid white;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    border-radius: 15px;
+    align-items: center;
+    margin: 0;
+    display: flex;
+}
+
+.image-Vache{
+    border: 5px solid white;
+    border-radius: 15px;
+    width: 550px;
+    height: auto;
+    margin-right:50px;
+}
+
+.info-Vache-Div{
+    color:rgb(255, 255, 255);
+    justify-content:space-around;
+    background: #6B8E23;
+    border: 5px solid white;
+    border-radius:15px;
+    padding: 10px;
+}
+.info-Boutons-1-Div{
+    color:rgb(255, 255, 255);
+    justify-content:space-around;
+    background: #3f238e;
+    border: 5px solid white;
+    border-radius:15px;
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+}
+.info-Boutons-2-Div{
+    color:rgb(255, 255, 255);
+    justify-content:space-around;
+    background: #8a238e;
+    border: 5px solid white;
+    border-radius:15px;
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+}
+.info-Boutons-3-Div{
+    color:rgb(255, 255, 255);
+    justify-content:space-around;
+    background: #8e2323;
+    border: 5px solid white;
+    border-radius:15px;
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+}
+.info-Boutons-4-Div{
+    color:rgb(255, 255, 255);
+    justify-content:space-around;
+    background: #8e5323;
+    border: 5px solid white;
+    border-radius:15px;
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+}
+.retournant-Div{
+    background: #03a0b4;
+    padding: 15px;
+    color: white;
+    border:10px solid white;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    border-radius: 15px;
+    text-align: left;
+
+    display:flex;
+    justify-content: space-around;
+}
+
+.nouveaux-Div{
+    background: #4169e1;
+    padding: 15px;
+    color: white;
+    border:10px solid white;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    border-radius: 15px;
+    text-align: left;
+
+    display:flex;
+    justify-content: space-around;
+}
+.footer1 {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    border-top: 10px solid white;
+    text-align: center;
+    border-radius: 15px;
+}
+.boutons-Div{
+    border: 15px white;
+    border-radius: 15px;
+    height: auto;
+    padding:15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align:center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boutons{
+    padding: 10px;
+    width: 30%;
+    font-size:30px;
+    background: #0a998c;
+    border: 5px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.boutons:hover{
+    background: orange;
+}
+
+.footer{
+    background:black;
+    color: white;
+    padding:100px;
+}
+
+.diviseur{
+    display: flex;
+    justify-content: space-between;
+}
+
+.droit-section {
+    padding: 5px;
+    background-color: #87CEEB;
+    border: 5px solid white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.side-image {
+    width: 100%;
+    border-radius: 10px;
+    border: 5px solid #E31C79;
+}
+
+
+
+
+
+
+
+
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 35px;
+    width: auto;
+    padding: 10px;
+    margin: 4px;
+}
+h4{
+    font-size: 15px;
+}

@@ -1,0 +1,86 @@
+body {
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.aYJviSN65CFTHkHbkYYyOQHaHa&pid=Api&P=0&h=180);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.titre {
+    background-color: #E31C79;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    border: 5px solid white;
+    border-radius: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+.form-div {
+    background: linear-gradient(to bottom, #E31C79, #4169e1);
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.image-Vache-Div {
+    background: linear-gradient(to bottom, #4169e1, #E31C79);
+    padding: 15px;
+    border: 5px solid white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-Vache {
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+}
+
+.informations-Div {
+    background: #4169e1;
+    padding: 15px;
+    color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.boutons {
+    padding: 10px;
+    width: 30%;
+    font-size: 20px;
+    background: #0a998c;
+    border: white 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    margin: 5px;
+}
+
+.bouton-Home {
+    background: #2ad4ff;
+}
+
+
+.boutons:hover {
+    background: orange;
+}
+
+.footer1 {
+    background: black;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    border-top: 5px solid white;
+    text-align: center;
+    border-radius: 15px;
+}

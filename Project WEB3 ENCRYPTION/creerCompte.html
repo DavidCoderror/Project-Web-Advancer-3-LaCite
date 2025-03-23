@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="creerCompte.css">
+</head>
+<body>
+    <div>
+        <h1 class="titre">Créer ton Compte!</h1>
+
+        <div class="form-div">   
+            <form asp-action="Merci" asp-controller="Home">
+                <input hidden class="form-control" type="number" placeholder="0" asp-for="Id" />
+
+                <label class="mt-2">Nom</label>
+                <br>
+                <input class="form-control" type="text" placeholder="Nom" asp-for="" />
+                <br>
+                <br>
+
+                <label class="mt-2">Email</label>
+                <br>
+                <input class="form-control" type="email" placeholder="Email" asp-for="" />
+                <br>
+                <br>
+
+                <label class="mt-2">Mot de Passe</label>
+                <br>
+                <input class="form-control" type="Mot de Passe" placeholder="Mot de Passe" asp-for="" />
+                <br>
+                <br>
+
+                <label class="mt-2">Téléphone</label>
+                <br>
+                <input class="form-control" type="tel" placeholder="Téléphone" asp-for="Telephone" />
+                <br>
+                <br>
+                
+                <button class="btn btn-primary mt-3 boutons" type="submit">Envoyer</button>
+            </form>
+            <br>
+            <a href="pageAccueil.html" class="btn btn-primary boutons bouton-Home">Home</a>      
+        </div>
+    
+        <div class="informations-Div">
+            <h2>Pourquoi choisir Moo & Co.?</h2>
+            <p>
+                Chez Moo & Co., nous sommes spécialisés dans l'exportation de vaches de haute qualité.
+                Grâce à notre expertise, nous collaborons avec des éleveurs du monde entier pour offrir
+                les meilleures races bovines. Notre engagement ? Un élevage durable et éthique, tout en
+                répondant aux besoins de nos partenaires internationaux.
+            </p>
+        </div>
+
+        <div class="image-Vache-Div">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.yuO_l-dbVn8n0vulwb_hVgHaE8&pid=Api&P=0&h=180" class="image-Vache" />
+            <img src="https://tse1.mm.bing.net/th?id=OIP.Y8HONMRN7j1hIdkHvBciOQHaFn&pid=Api&P=0&h=180" class="image-Vache" />
+            <img src="https://tse1.mm.bing.net/th?id=OIP.pIZ9VFlqiZdZf5WelartYAHaE8&pid=Api&P=0&h=180" class="image-Vache" />
+        </div>
+
+        <div class="footer1">
+            <h2>Faits amusants sur les vaches !</h2>
+            <p>Chaque vache a une voix unique, et leurs meuglements permettent aux autres de les reconnaître.</p>
+        </div>
+    </div>
+</body>
+</html>
